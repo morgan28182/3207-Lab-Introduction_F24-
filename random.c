@@ -3,9 +3,11 @@
 #include <time.h>
 
 int randchar(){
-    int i;
 
+    srand((unsigned)time(NULL));
 
+    int index = rand() % 26;
 
+    return 'A' + index;
 
 }
