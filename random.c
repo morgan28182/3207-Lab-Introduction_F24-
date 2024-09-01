@@ -8,7 +8,9 @@ int randchar(){
     srand((unsigned)time(NULL));
 
     int index = rand() % 26; 
+    //finds random number between 1-26
 
     return 'A' + index;
+    //returns letter associated with index
 
 }
